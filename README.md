@@ -19,7 +19,7 @@ Our robot, a robust Arduino Uno-based robot, has been designed to excel in the W
 
 ## Insight
 
-*Our robot is an innovative robot engineered for the WRO Future Engineers competition. This documentation offers an in-depth examination of its architecture, detailing the rationale behind its design choices, and presents the code responsible for its precise maneuvering capabilities.
+*Our robot is an innovative robot engineered for the WRO Future Engineers competition. This documentation offers an in-depth examination of its architecture, detailing the rationale behind its design choices, and presents the code responsible for its precise maneuvering capabilities.*
 
 
 
@@ -53,7 +53,7 @@ A Pixy camera is integrated to identify obstacle colors. It distinguishes betwee
 
 
 ### Code Overview:
-The robot's functionality is driven by a carefully crafted code that orchestrates its movements.
+*The robot's functionality is driven by a carefully crafted code that orchestrates its movements.*
 
 #### Library Inclusions:
 The code includes essential libraries such as Wire, Adafruit_Sensor, and Adafruit_BNO055 for interfacing with sensors and motor control.
@@ -79,4 +79,4 @@ The code implements intelligent obstacle handling logic based on sensor readings
 
 
 ### Conclusion:
-*Our Robot is a testament to thoughtful engineering and strategic component selection. Its unique frame design, coupled with a differential drive system, provides a solid foundation for agile movements. The integration of ultrasonic sensors and a Pixy camera elevates its perception capabilities, making it a formidable competitor in the WRO Future Engineers competition.
+*Our Robot is a testament to thoughtful engineering and strategic component selection. Its unique frame design, coupled with a differential drive system, provides a solid foundation for agile movements. The integration of ultrasonic sensors and a Pixy camera elevates its perception capabilities, making it a formidable competitor in the WRO Future Engineers competition.*
