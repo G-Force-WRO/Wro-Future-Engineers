@@ -59,22 +59,22 @@ A Pixy camera is integrated to identify obstacle colors. It distinguishes betwee
 *The robot's functionality is driven by a carefully crafted code that orchestrates its movements.*
 
 #### Library Inclusions:
-The code includes essential libraries such as Wire, Adafruit_Sensor, and Adafruit_BNO055 for interfacing with sensors and motor control.
+The code includes essential libraries such as Wire, Adafruit_Sensor, and Adafruit_BNO055 for interfacing with sensors and motor control. We also used libraries like Servo to communicate with our MG90.
 
 #### Pin Configuration:
 The code establishes pin modes for ultrasonic sensors, motors, and the servo, ensuring proper communication between the components.
 
 #### Initialization:
-The setup function initializes the robot, configuring pins, setting up the serial communication, and initializing the BNO055 sensor.
+The setup function initializes the robot, configuring pins, setting up serial communication, and initializing the BNO055 sensor.
 
 #### Distance Measurement:
-The 'dist' function uses the ultrasonic sensors to calculate distances from obstacles. It employs the pulseIn function to obtain accurate readings.
+The 'dist' function uses the ultrasonic sensors to calculate distances from obstacles. It employs the pulseIn function to obtain accurate readings (and restricts distance readings over 200 for a smooth operation without the ultrasonic waiting for too long to receive the impulse).
 
 #### Orientation Data:
-The 'printEvent' function extracts orientation data from the BNO055 sensor, providing critical information about the robot's spatial orientation.
+The 'printEvent' function extracts orientation data from the BNO055 sensor, providing critical information about the robot's spatial orientation, and sets it in a variable so we can autonomously correct any play by our servo.
 
 #### Steering and Driving Control:
-The 'loop' function is the heart of the code. It manages the robot's movements, including steering, driving, and obstacle avoidance. The motors are controlled using digitalWrite and analogWrite functions, allowing for precise speed and direction control.
+The 'loop' function is the heart of the code. It manages the robot's movements, including steering, driving, and obstacle avoidance. The motors are controlled using digitalWrite and analogWrite functions, allowing for precise speed and direction control. We get constant data from an IMU (inertial measurement unit) to correct our position. Finally, we have an ultrasonic sensor in the front to detect walls and alert us about when to turn.
 
 #### Obstacle Handling:
 The code implements intelligent obstacle handling logic based on sensor readings. When an obstacle is detected, the robot adjusts its orientation and steering to navigate around it.
