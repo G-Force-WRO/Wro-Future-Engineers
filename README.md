@@ -53,7 +53,7 @@ A Pixy camera is integrated to identify obstacle colors. It distinguishes betwee
 
 
 ### Code Overview:
-_The robot's functionality is driven by a carefully crafted code that orchestrates its movements. Below are key components of the code:
+The robot's functionality is driven by a carefully crafted code that orchestrates its movements.
 
 #### Library Inclusions:
 The code includes essential libraries such as Wire, Adafruit_Sensor, and Adafruit_BNO055 for interfacing with sensors and motor control.
