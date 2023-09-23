@@ -19,7 +19,7 @@ Our robot, a robust Arduino Uno-based robot, has been designed to excel in the W
 
 ## Insight
 
-_Our robot is an innovative robot engineered for the WRO Future Engineers competition. This documentation offers an in-depth examination of its architecture, detailing the rationale behind its design choices, and presents the code responsible for its precise maneuvering capabilities.
+*Our robot is an innovative robot engineered for the WRO Future Engineers competition. This documentation offers an in-depth examination of its architecture, detailing the rationale behind its design choices, and presents the code responsible for its precise maneuvering capabilities.
 
 
 
@@ -79,4 +79,4 @@ The code implements intelligent obstacle handling logic based on sensor readings
 
 
 ### Conclusion:
-_Our Robot is a testament to thoughtful engineering and strategic component selection. Its unique frame design, coupled with a differential drive system, provides a solid foundation for agile movements. The integration of ultrasonic sensors and a Pixy camera elevates its perception capabilities, making it a formidable competitor in the WRO Future Engineers competition.
+*Our Robot is a testament to thoughtful engineering and strategic component selection. Its unique frame design, coupled with a differential drive system, provides a solid foundation for agile movements. The integration of ultrasonic sensors and a Pixy camera elevates its perception capabilities, making it a formidable competitor in the WRO Future Engineers competition.
