@@ -17,6 +17,9 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 Our robot, a robust Arduino Uno-based robot, has been designed to excel in the WRO Future Engineers competition. This documentation provides a comprehensive overview of its components, design rationale, and the code that drives its performance. The robot employs advanced features such as ultrasonic sensors and a Pixy camera for accurate obstacle detection and color recognition. This document serves as a guide for those interested in understanding and replicating the our robot's functionality.
 
+## About Us
+G-FORCE is dynamic trio, each member contributing vital skills to the project. Keyaan, the proficient coder, brings technical expertise and ensures the robot's software operates seamlessly. Arham, the skilled constructor, plays a pivotal role in materializing the design, ensuring structural integrity and functionality. Suramrit, the dedicated documenter and co-constructor, bridges the gap between concept and reality by meticulously recording progress and aiding in construction. Despite starting late, our team showcases admirable dedication and a diverse skill set, promising a project that combines precision coding, solid construction, and thorough documentation for a competitive edge in the WRO Future Engineers competition.
+
 ## Insight
 
 *Our robot is an innovative robot engineered for the WRO Future Engineers competition. This documentation offers an in-depth examination of its architecture, detailing the rationale behind its design choices, and presents the code responsible for its precise maneuvering capabilities.*
