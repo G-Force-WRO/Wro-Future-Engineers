@@ -1,17 +1,17 @@
 Engineering materials
 ====
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2023.
+This repository contains engineering materials for a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2023.
 
 ## Content
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
 * `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+* `schemes` contains one or several schematic diagrams in the form of JPEG, PNG, or PDF of the electromechanical components, illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
 * `src` contains code of control software for all components which were programmed to participate in the competition
 * `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC or SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 
 ## Introduction
 
@@ -29,29 +29,45 @@ G-FORCE is dynamic trio, each member contributing vital skills to the project. K
 ### Hardware Overview:
 
 #### Frame Design:
-Our robot incorporates a distinctive design composed of a large spike frame and other Lego components, enhancing its aesthetic appeal and structural integrity. The fusion of LEGO parts and 3D-printed models further reinforces the robots's stability.
+The core of our robot's identity lies in its striking and unique design. It boasts a prominent spike frame, a defining feature that not only adds a distinctive visual flair but also contributes significantly to its structural integrity. Complementing this primary element are carefully integrated Lego components, forming a harmonious fusion of form and function. These Lego elements serve as integral building blocks, adding both aesthetic and structural value to the robot. In addition to the Lego components, we've leveraged 3D-printed models, strategically incorporated to provide additional support and strength, ultimately enhancing the overall stability and robustness of our robot's framework. This meticulous integration of Lego parts and 3D-printed models is a testament to our team's commitment to creating a well-balanced and visually impressive robotic platform.
 
 #### Drivetrain:
-A crucial element of the robot's performance lies in its drivetrain. It employs two motors, one for driving and another for steering. The driving motor, an n20 servo motor, provides 600 RPM, balancing speed and torque effectively. The selection of this motor ensures optimal performance under various conditions.
+The drivetrain constitutes a pivotal component that significantly influences the robot's overall performance. It operates on a system of two distinct motors, each assigned a specialized role. One of these motors is dedicated to propelling the robot forward, while the other is responsible for steering its direction. The driving motor, specifically an N20 servo motor, is engineered to deliver an impressive 600 revolutions per minute (RPM). This particular choice of motor is a careful equilibrium between speed and torque, both of which are critical aspects in determining the robot's efficiency. By opting for the N20 servo motor, the team ensures that the robot can operate optimally across a wide range of conditions and challenges it may encounter during the competition. This choice underscores the team's commitment to achieving top-notch performance and adaptability.
 
 #### Steering Mechanism:
-For steering, a high-torque MG90 servo motor has been integrated, allowing for precise control over directional changes. This choice of motor aligns with the competition's requirements and contributes to the robot's agility.
+The steering mechanism of the SpikeBot is facilitated by the incorporation of a high-torque MG90 servo motor. This component plays a pivotal role in determining the direction of the robot's movement. Unlike the driving motor, which focuses on propelling the robot forward, the servo motor's primary function is to control the orientation of the wheels, enabling the robot to make precise turns and navigate intricate paths.
+
+The selection of a high-torque motor is a strategic decision, as it ensures that the motor possesses the necessary strength to exert control over the steering mechanism. This attribute is particularly crucial in scenarios where the robot encounters obstacles or requires swift directional adjustments.
+
+By integrating the MG90 servo motor, the SpikeBot aligns with the specific requirements set forth by the competition organizers. This meticulous attention to detail underscores the team's dedication to meeting and exceeding the competition's standards.
+
+Furthermore, the high-torque nature of the motor translates into a heightened level of responsiveness in steering operations. This directly contributes to the robot's agility, allowing it to maneuver deftly and with precision, a key factor in excelling in the competition's challenges. The integration of the MG90 servo motor is thus a crucial element in ensuring the SpikeBot's ability to perform intricate maneuvers and maintain a competitive edge.
+
 
 #### Differential Drive System:
-The drivetrain utilizes a LEGO differential mechanism, distributing power evenly to the driving wheels. This differential system plays a pivotal role in maintaining stability during maneuvers.
+The drivetrain of the robot incorporates a crucial component known as a LEGO differential mechanism. This specialized component serves a vital function by ensuring that power from the motors is evenly distributed to the driving wheels. This even distribution of power is instrumental in maintaining stability, especially during intricate manoeuvres. It prevents one wheel from receiving an excess of power compared to the other, which could lead to erratic movements or loss of control. By utilizing this differential system, the SpikeBot is able to navigate with a high degree of precision and stability, contributing significantly to its overall performance and effectiveness in the competition.
 
 #### Center of Gravity:
-The robot's center of gravity is a critical factor influencing its stability and maneuverability. With the Arduino and battery positioned atop the driving wheels at the rear and the motors situated in the center, the robot achieves a balanced distribution of weight. This configuration minimizes the risk of tipping during rapid movements or sharp turns. Additionally, the placement of the camera at the front ensures that its weight contributes to the overall equilibrium. This strategic arrangement optimizes the robot's center of gravity, allowing it to navigate with precision and confidence, even in dynamic and challenging environments.
-
+The center of gravity, a pivotal consideration in the design of the robot, significantly impacts its stability and maneuvering capabilities. The placement of key components is strategically arranged to achieve optimal balance. Specifically, the Arduino and battery are situated atop the driving wheels at the rear, while the motors are positioned at the center. This configuration effectively distributes the weight, minimizing the likelihood of tipping, particularly during swift movements or sharp directional changes. Moreover, the camera, a prominent component, is intentionally positioned at the front. This placement ensures that its weight contributes harmoniously to the overall equilibrium of the robot. The collective result of this thoughtfully planned arrangement is an optimized center of gravity, empowering the robot to navigate with precise control and unwavering confidence, even in dynamic and demanding environments.
 
 
 ### Sensors and Perception:
 
 #### Ultrasonic Sensors:
-The robot employs three ultrasonic sensors strategically positioned for accurate distance measurement. The front sensor aids in precise turns and obstacle avoidance, while the left and right sensors detect inner and outer walls, enhancing accuracy in confined spaces. // how this helps our strategy. what our plan is. make it cohesive
+The incorporation of three strategically positioned ultrasonic sensors is a pivotal aspect of our robot's design, playing a crucial role in executing our competition strategy with precision and efficiency. The foremost sensor, strategically placed at the front, serves a dual purpose. Firstly, it significantly contributes to the robot's ability to execute precise turns, a critical skill in navigating the competition's obstacle course. Secondly, it aids in real-time obstacle avoidance, allowing the robot to make split-second adjustments to its trajectory, ensuring it safely navigates around potential obstructions.
+
+In tandem with the front sensor, the left and right sensors assume distinct responsibilities. Their placement is calibrated to detect inner and outer walls, an invaluable feature when navigating confined spaces. This capability equips the robot with a heightened sense of spatial awareness, enabling it to navigate tight corners and narrow passageways with finesse. By intelligently leveraging this sensor arrangement, our plan is to equip the SpikeBot with an enhanced level of accuracy and adaptability, setting it apart as a formidable contender in the WRO Future Engineers competition.
 
 #### Pixy 2 Camera:
-A Pixy 2 camera is a plug-and-play smart vision system integrated to identify obstacle colors. It distinguishes between green (left) and red (right), facilitating intelligent decision-making during navigation. // communicates over spi. 
+The Pixy 2 camera is a sophisticated smart vision system that seamlessly integrates into our robot. Its plug-and-play nature means it can be easily incorporated into our existing setup without the need for extensive configuration. This powerful component plays a crucial role in our robot's ability to perceive and interact with its environment.
+
+One of the key functionalities of the Pixy 2 camera is its capacity to discern between different obstacle colors. Specifically, it is adept at distinguishing between green, which corresponds to the left side, and red, indicative of the right side. This capability is invaluable as it provides our robot with a clear and reliable method for identifying and classifying obstacles in its path.
+
+By recognizing and categorizing obstacles based on their color, the Pixy 2 camera significantly enhances our robot's decision-making process during navigation. This enables the robot to make informed choices about its path, allowing it to efficiently maneuver around obstacles and reach its destination.
+
+Furthermore, the Pixy 2 camera employs SPI (Serial Peripheral Interface) for communication. This high-speed, synchronous serial communication protocol ensures efficient and reliable data exchange between the camera and the other components of our robot. This means that the Pixy 2 camera can seamlessly transmit information to our robot's processing unit, enabling timely and accurate responses to its environment.
+
+In essence, the Pixy 2 camera serves as a crucial sensory tool for our robot, providing it with the ability to visually identify and differentiate obstacles based on their colors. This capability significantly enhances our robot's decision-making process, allowing it to navigate complex environments with precision and efficiency. Moreover, its seamless integration through SPI communication ensures smooth operation within our existing system. The Pixy 2 camera stands as a testament to the advanced technology employed in our robot, contributing significantly to its performance in the WRO Future Engineers competition.
 
 
 ### Code Overview:
@@ -69,7 +85,7 @@ The code establishes pin modes for ultrasonic sensors, motors, and the servo, en
 The setup function initializes the robot, configuring pins, setting up serial communication, and initializing the BNO055 sensor. We do this by setting each pin as either an `OUTPUT` pin or an `INPUT` pin, depending on whether it requires data to be written to it or to be received from it. For example, our `ECHO_PIN` for our ultrasonic sensor, which returns the distance needed to be an `INPUT` and `SERVO_PIN` which tells the MG90 Servo what position to go to, should be an `OUTPUT`. Then we had to begin the serial communication by stating the baud rate. The baud rate represents the rate at which data is sent in bits per second. The Arduino default is a baud rate of 9600 bits per second, but we increased it to 115200 to get faster readings and to see more outliers using a serial monitor to assist us with debugging, but simultaneously, it was not so high that it overwhelmed us with data to the point where we couldn't read the data. Finally, we set the angle of the servo to straight (115 degrees) and initialized the IMU (using `bno.begin`).
 
 #### Distance Measurement:
-The 'dist' function uses the ultrasonic sensors to calculate distances from obstacles. It employs the pulseIn function to obtain accurate readings (and restricts distance readings over 200 for a smooth operation without the ultrasonic waiting for too long to receive the impulse). It works by sending out an ultrasonic signal in a 30-40 degree range and measures time taken for the signal to return. Then using the basic formula: `speed = distance/time` we can calculate distance considering that speed of sound in air is ~340 metres per second and with information on the time taken. //add application of us in code
+The 'dist' function uses the ultrasonic sensors to calculate distances from obstacles. It employs the pulseIn function to obtain accurate readings (and restricts distance readings over 200 for a smooth operation without the ultrasonic waiting for too long to receive the impulse). It works by sending out an ultrasonic signal in a 30–40 degree range and measuring the time taken for the signal to return. Then, using the basic formula: `speed = distance/time` we can calculate distance considering that the speed of sound in air is ~340 meters per second and with information on the time taken. //add application of us in code
 
 #### Orientation Data:
 The 'printEvent' function extracts orientation data from the BNO055 sensor, providing critical information about the robot's spatial orientation, and sets it in a variable so we can autonomously correct any play by our servo.
@@ -78,7 +94,7 @@ The 'printEvent' function extracts orientation data from the BNO055 sensor, prov
 The 'loop' function is the heart of the code. It manages the robot's movements, including steering, driving, and obstacle avoidance. The motors are controlled using digitalWrite and analogWrite functions, allowing for precise speed and direction control. We get constant data from an IMU to correct our position. Finally, we have an ultrasonic sensor in the front to detect walls and alert us about when to turn.
 
 #### Obstacle Handling:
-The code implements intelligent obstacle handling logic based on sensor readings. When an obstacle is detected, the robot adjusts its orientation and steering to navigate around it.
+The implemented code incorporates an advanced obstacle-handling mechanism that operates in response to data received from the sensors. When the robot's sensors detect the presence of an obstacle, the code initiates a sequence of actions aimed at ensuring safe navigation. This entails a nuanced adjustment of both the robot's orientation and steering. By dynamically altering its orientation, the robot positions itself in a manner that optimally circumvents the detected obstacle. Concurrently, the steering mechanism is fine-tuned to facilitate a controlled deviation from the original path. This coordinated response allows the robot to smoothly and intelligently navigate around obstacles, mitigating potential collisions and ensuring efficient progress through its environment.
 
 
 
