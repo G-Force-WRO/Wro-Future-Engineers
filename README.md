@@ -15,14 +15,14 @@ This repository contains engineering materials for a self-driven vehicle's model
 
 ## Introduction
 
-Our robot, a robust Arduino Uno-based robot, has been designed to excel in the WRO Future Engineers competition. This documentation provides a comprehensive overview of its components, design rationale, and the code that drives its performance. The robot employs advanced features such as ultrasonic sensors and a Pixy camera for accurate obstacle detection and color recognition. This document serves as a guide for those interested in understanding and replicating the our robot's functionality.
+Our robot, a robust Arduino Uno-based robot, has been designed to excel in the WRO Future Engineers competition. This documentation provides a comprehensive overview of its components, design rationale, and the code that drives its performance. The robot employs advanced features such as ultrasonic sensors and a Pixy camera for accurate obstacle detection and color recognition. This document serves as a guide for those interested in understanding and replicating our robot's functionality.
 
 ## About Us
 G-FORCE is dynamic trio, each member contributing vital skills to the project. Keyaan, the proficient coder, brings technical expertise and ensures the robot's software operates seamlessly. Arham, the skilled constructor, plays a pivotal role in materializing the design, ensuring structural integrity and functionality. Suramrit, the dedicated documenter and co-constructor, bridges the gap between concept and reality by meticulously recording progress and aiding in construction. Despite starting late, our team showcases admirable dedication and a diverse skill set, promising a project that combines precision coding, solid construction, and thorough documentation for a competitive edge in the WRO Future Engineers competition.
 
 ## Insight
 
-*Our robot is an innovative robot engineered for the WRO Future Engineers competition. This documentation offers an in-depth examination of its architecture, detailing the rationale behind its design choices, and presents the code responsible for its precise maneuvering capabilities.*
+*Our robot is an innovative robot engineered for the WRO Future Engineers competition. This documentation offers an in-depth examination of its architecture, details the rationale behind its design choices, and presents the code responsible for its precise maneuvering capabilities.*
 
 
 
@@ -35,11 +35,11 @@ The core of our robot's identity lies in its striking and unique design. It boas
 The drivetrain constitutes a pivotal component that significantly influences the robot's overall performance. It operates on a system of two distinct motors, each assigned a specialized role. One of these motors is dedicated to propelling the robot forward, while the other is responsible for steering its direction. The driving motor, specifically an N20 servo motor, is engineered to deliver an impressive 600 revolutions per minute (RPM). This particular choice of motor is a careful equilibrium between speed and torque, both of which are critical aspects in determining the robot's efficiency. By opting for the N20 servo motor, the team ensures that the robot can operate optimally across a wide range of conditions and challenges it may encounter during the competition. This choice underscores the team's commitment to achieving top-notch performance and adaptability.
 
 #### Steering Mechanism:
-The steering mechanism of the SpikeBot is facilitated by the incorporation of a high-torque MG90 servo motor. This component plays a pivotal role in determining the direction of the robot's movement. Unlike the driving motor, which focuses on propelling the robot forward, the servo motor's primary function is to control the orientation of the wheels, enabling the robot to make precise turns and navigate intricate paths.
+The steering mechanism of the robot is facilitated by the incorporation of a high-torque MG90 servo motor. This component plays a pivotal role in determining the direction of the robot's movement. Unlike the driving motor, which focuses on propelling the robot forward, the servo motor's primary function is to control the orientation of the wheels, enabling the robot to make precise turns and navigate intricate paths.
 
 The selection of a high-torque motor is a strategic decision, as it ensures that the motor possesses the necessary strength to exert control over the steering mechanism. This attribute is particularly crucial in scenarios where the robot encounters obstacles or requires swift directional adjustments.
 
-By integrating the MG90 servo motor, the SpikeBot aligns with the specific requirements set forth by the competition organizers. This meticulous attention to detail underscores the team's dedication to meeting and exceeding the competition's standards.
+By integrating the MG90 servo motor, the robot aligns with the specific requirements set forth by the competition organizers. This meticulous attention to detail underscores the team's dedication to meeting and exceeding the competition's standards.
 
 Furthermore, the high-torque nature of the motor translates into a heightened level of responsiveness in steering operations. This directly contributes to the robot's agility, allowing it to maneuver deftly and with precision, a key factor in excelling in the competition's challenges. The integration of the MG90 servo motor is thus a crucial element in ensuring the SpikeBot's ability to perform intricate maneuvers and maintain a competitive edge.
 
