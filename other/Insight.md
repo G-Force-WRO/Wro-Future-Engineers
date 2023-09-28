@@ -20,6 +20,8 @@ Furthermore, the high-torque nature of the motor translates into a heightened le
 
 #### Differential Drive System:
 The drivetrain of the robot incorporates a crucial component known as a LEGO differential mechanism. This specialized component serves a vital function by ensuring that power from the motors is evenly distributed to the driving wheels. This even distribution of power is instrumental in maintaining stability, especially during intricate manoeuvres. It prevents one wheel from receiving an excess of power compared to the other, which could lead to erratic movements or loss of control. By utilizing this differential system, the SpikeBot is able to navigate with a high degree of precision and stability, contributing significantly to its overall performance and effectiveness in the competition.
+
+
 ![image](https://github.com/G-Force-WRO/Wro-Future-Engineers/assets/145182523/408ad570-71b2-4058-ac00-8f3ea07179a5)
 
 
